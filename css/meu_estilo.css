@@ -1,0 +1,85 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+
+
+.fundofixo{
+    background: url(../images/churrasco.jpg) no-repeat fixed;
+    -webkit-background-size: cover ;
+    background-size: cover;
+}
+
+ div .oferta {
+    width: 100vw;
+    height: 50vh;
+    background-color: #ffd700 ;
+    background-size: cover;    
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+
+.oferta .titulo{
+    width: 450px;
+    right: 200px;
+    text-align: center;
+    margin-right: 20%;
+    font-family: Ultra;
+    font-weight: 400;
+    color: red;
+}
+
+.titulo{
+    width: 450px;
+    right: 200px;
+    text-align: center;
+    font-family: Ultra;
+    font-weight: 400;
+    color: red;
+}
+
+
+
+/*Ínicio da estilização das tabelas listar produtos, tipos e usuário */
+.table{
+    border: 5px solid #fff;
+    
+}
+
+.table th{
+    border: 3px solid #fff;
+    text-align: center;
+    color: darkred;
+}
+
+.table td{
+    border: 3px solid #fff;    
+    align-items: center;
+    text-align: center;
+    font-weight:bold;
+}
+
+.table td .foto_usuario{
+    border: 2px solid #000;
+    margin-top: 5px;
+}
+
+.foto_usuario{
+    width: 100px;     
+}
+
+.table td .largButton{
+    border: 2px solid #000;
+    margin-top: 5px;
+}
+
+.largButton{
+    width: 100px;     
+}
+/*Final da estilização das tabelas listar produtos, tipos e usuário */
+
+/*Ínicio da estilização classe casdastre da tela de login*/
+.cadastre a{
+    color: #000;
+}
+/*Final da estilização classe casdastre da tela de login*/
