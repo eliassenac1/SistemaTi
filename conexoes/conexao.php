@@ -6,7 +6,7 @@ Comentário de bloco
 */ 
 
 $hostname_conexao = "localhost";
-$database_conexao = "sistemaDB";
+$database_conexao = "sistemadb";
 $username_conexao = "root";
 $password_conexao ="";
 $charset_conexao = "utf8";

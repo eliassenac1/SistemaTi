@@ -12,6 +12,13 @@
 </head>
 <body class="fundofixo">
 
+<a href="admin/cadastro_reserva.php">
+
+    <input type="button" value="50% NO VALOR DO RODIZIO PARA O TITULAR DA RESERVA e 15% DE DESCONTO NAS BEBIDAS" class="btn btn-danger btn-block">
+
+    </a>
+
+    
 <!-- Área do menu -->
 <?php include('menu_publico.php');?>
 <a name="home">&nbsp;</a>
@@ -31,9 +38,6 @@
 <?php include('produtos_geral.php');?>
 <a name="produtos">&nbsp;</a>
 
-<!-- Área de reservas -->
-<?php include('reserva_geral.php');?>
-<a name="reservas">&nbsp;</a>
 
 <hr>
 

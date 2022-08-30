@@ -3,7 +3,7 @@
 
 <head>
 
-    <title>Churrasqueiro & Churrascow</title>
+    <title>Churrascaria</title>
 </head>
 
 <body class="fundofixo">
@@ -117,9 +117,9 @@
         <div class="col-sm-12">
             <div class="panel-footer">
                 <h6 class="text-danger text-center">
-                    &copy; Copyright Desenvolvido por Marconys Pinheiro - AlunoTI91.
+                    &copy; Copyright Desenvolvido por Elias Vieira - AlunoTI91.
                     <br>
-                    <a href="https://github.com/marconys">https://marconys.github.io/Portifolio/</a>
+                    <a href="https://github.com/eliassenac1">https://github.com/eliassenac1</a>
                 </h6>
             </div>
         </div>
