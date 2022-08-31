@@ -7,9 +7,6 @@ include('../config.php');
 include('../conexoes/conexao.php');
 
 
-
-
-
 //Chave estrangeira tipo
 $query_tipo = "select * from tbtipos order by rotulo_tipo asc";
 $lista_fk = $conexao->query($query_tipo);

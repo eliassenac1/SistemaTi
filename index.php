@@ -9,16 +9,18 @@
     <title><?php echo SYS_NAME;?></title>
     <link  rel="stylesheet" href="./css/meu_estilo.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css">
-</head>
+
+
+
 <body class="fundofixo">
+    
 
 <a href="admin/cadastro_reserva.php">
 
-    <input type="button" value="50% NO VALOR DO RODIZIO PARA O TITULAR DA RESERVA e 15% DE DESCONTO NAS BEBIDAS" class="btn btn-danger btn-block">
+<input type="button" value="50% NO VALOR DO RODIZIO PARA O TITULAR DA RESERVA e 15% DE DESCONTO NAS BEBIDAS" class="btn btn-danger btn-block">
 
-    </a>
+</a>
 
-    
 <!-- Área do menu -->
 <?php include('menu_publico.php');?>
 <a name="home">&nbsp;</a>
@@ -38,6 +40,8 @@
 <?php include('produtos_geral.php');?>
 <a name="produtos">&nbsp;</a>
 
+<?php include('reservas.php');?>
+<a name="reservas">&nbsp;</a>
 
 
 <hr>

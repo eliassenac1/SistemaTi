@@ -96,19 +96,19 @@ if ($_POST) {
                             <br>
                             <div class="alert alert-info" role="alert">
                                 <form action="login.php" name="form_login" id="form_login" method="post" enctype="multipart/form-data">
-                                    <label for="login_usuario">Login:</label>
+                                    <label for="login_usuario">NOME COMPLETO:</label>
                                     <p class="input-group">
                                         <span class="input-group-addon">
                                             <span class="glyphicon glyphicon-user text-info" aria-hidden="true"></span>
                                         </span>
                                         <input type="text" name="login_usuario" id="login_usuario" class="form-control" autofocus required autocomplete="off" placeholder="Digite seu login.">
                                     </p>
-                                    <label for="senha_usuario">Senha:</label>
+                                    <label for="senha_usuario">CPF:</label>
                                     <p class="input-group">
                                         <span class="input-group-addon">
                                             <span class="glyphicon glyphicon-qrcode text-info" aria-hidden="true"></span>
                                         </span>
-                                        <input type="password" name="senha_usuario" id="senha_usuario" class="form-control" required autocomplete="off" placeholder="Digite sua senha."><br>
+                                        <input type="password" name="senha_usuario" id="senha_usuario" class="form-control" required autocomplete="off" placeholder="Digite os 3 primeiros digitos do seu cpf."><br>
                                     <div class="input-group-addon alert-success">
                                         <div><a href="../client/cadastrar_cliente.php"><span class="text-success">Cadastre-se</span></a></div>
                                         <div><a href="client/reset_senha.php"><span class="text-warning">Esqueceu sua senha?</span></a></div>
